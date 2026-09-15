@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <div class="banner">
+        <div class="banner-logo">
+            <img src="./img/patinhas-felizes-logo.png" alt="Logo Patinhas Felizes">
+        </div>
+
+        <div class="banner-separador"></div>
+
+        <div class="banner-texto">
+            <p class="banner-titulo">PATINHAS FELIZES</p>
+            <p class="banner-subtitulo">SERVIÇOS</p>
+        </div>
+
+        <div class="banner-listras">
+            <div class="listra"></div>
+            <div class="listra"></div>
+            <div class="listra"></div>
+            <div class="listra"></div>
+            <div class="listra"></div>
+        </div>
+
+
+        <div class="banner-foto">
+            <img src="./img/Animais-de-estimacao-Que-grandes-licoes-esses-amigos-nos-ensinam.jpg" alt="">
+        </div>
+    </div>
+
     <meta charset="UTF-8">
     <meta name="description" content="ÀREA DE PRODUTOS PARA O SEU PET">
     <meta name="keywords" content="Produtos e Vendas">
@@ -10,24 +37,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <title>Serviços</title>
 </head>
+
 <body>
-    <header class="banner-topo">
-        <h1 class="espaco"><strong><img src="./img/logo-do-patinhas(SERVIÇOS).png"
-                    alt="Logo principal , Patinhas Felizes , pagina home"></strong></h1>
-    </header>
-<nav class="menu">
+
+    <nav class="menu">
         <ul class="lista">
-            <li><a href="./index.html" ><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="./index.html"><i class="fa-solid fa-house"></i>Home</a></li>
             <li><a href="./servicos.html" class="ativo"><i class="fa-solid fa-cart-shopping"></i>Serviços</a></li>
             <li><a href="./galeria.html"><i class="fa-solid fa-comments"></i>Galeria</a></li>
             <li><a href="./contato.html"><i class="fa-solid fa-phone"></i>Contatos</a></li>
         </ul>
     </nav>
     <div>
-    <center>
-    <input type="Pesquisa" class="marging-perquisabarr-pioto" placeholder="Pesquisar:">
-    <i class="fa-solid fa-magnifying-glass"></i>
-</center>
-</div>
+        <center>
+            <!-- ALTERADO: input e ícone agora dentro de uma div.container-pesquisa para permitir posicionamento -->
+            <div class="container-pesquisa">
+                <input type="Pesquisa" class="marging-perquisabarr-pioto" placeholder="Pesquisar:">
+                <i class="fa-solid fa-magnifying-glass icone-pesquisa"></i>
+            </div>
+        </center>
+
+        <div class="container-produtos-pioto">
+            <img src="./img/Gaiola.png" alt="Coleiras" class="container-img-pioto">
+            <p class="descrição-e-valor-do-produto">Aqui vai a descrição da imagem</p>
+        </div>
+
 </body>
+
 </html>

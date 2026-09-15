@@ -158,23 +158,24 @@ body {
 
 /*INÍCIO PARTE FINAL*/
 
-.ultimo-bloco{
-    background-color:rgb(233, 242, 245);;
+.ultimo-bloco {
+    background-color: rgb(233, 242, 245);
+    ;
 
 }
 
 .frase-imagem {
-    
+
     align-items: center;
     border: 1.5px solid peru;
     background-color: bisque;
     border-radius: 60px;
     height: 150px;
-    width: 1400px; 
+    width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
+
 }
 
 
@@ -206,6 +207,14 @@ body {
 
 /* pioto */
 
+/* pioto */
+
+/* ALTERADO: adicionado position:relative e display:inline-block para servir de referência ao ícone */
+.container-pesquisa {
+    position: relative;
+    display: inline-block;
+}
+
 .marging-perquisabarr-pioto {
     margin-top: 10px;
     margin-left: 10px;
@@ -213,7 +222,153 @@ body {
     width: 700px;
     border-radius: 50px;
     padding: 10px;
+    padding-right: 40px;
+    /* ADICIONADO: espaço reservado para o ícone não sobrepor o texto digitado */
 }
 
-/* Parte da Mariah */
+/* ADICIONADO: posiciona o ícone dentro da barra, alinhado verticalmente ao centro */
+.icone-pesquisa {
+    position: absolute;
+    right: 2%;
+    top: 60%;
+    transform: translateY(-50%);
+    color: #000000;
+    cursor: pointer;
+}
 
+.container-produtos-pioto {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    vertical-align: top;
+}
+
+.container-img-pioto {
+    width: 100%;
+    height: auto;   /* altura se ajusta à largura, sem cortar */
+    display: block;
+}
+
+.descrição-e-valor-do-produto {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+  .banner {
+    display: flex;
+    align-items: stretch;
+    height: 160px;
+    background-color: #1b3358; /* azul marinho */
+    overflow: hidden;
+  }
+ 
+  /* Logo circular à esquerda */
+  .banner-logo {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+  }
+ 
+  .banner-logo img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+ 
+  /* Linha divisória fina */
+  .banner-separador {
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 20px 0;
+  }
+ 
+  /* Bloco de texto (título + subtítulo) */
+  .banner-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 32px;
+    flex: 1;
+  }
+ 
+  .banner-titulo {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #e8b04b; /* dourado */
+    margin: 0;
+    letter-spacing: 1px;
+  }
+ 
+  .banner-subtitulo {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e8b04b;
+    margin: 6px 0 0 0;
+    letter-spacing: 2px;
+  }
+ 
+  /* Listras decorativas */
+  .banner-listras {
+    display: flex;
+  }
+ 
+  .listra {
+    width: 10px;
+    height: 100%;
+  }
+ 
+  .listra:nth-child(odd) {
+    background-color: #1b3358;
+  }
+ 
+  .listra:nth-child(even) {
+    background-color: #e8b04b;
+  }
+ 
+  /* Foto à direita */
+  .banner-foto {
+    width: 260px;
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+ 
+  .banner-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+ 
+  /* Responsivo: em telas pequenas, esconde a foto e ajusta o texto */
+  @media (max-width: 700px) {
+    .banner {
+      height: auto;
+      flex-wrap: wrap;
+    }
+    .banner-foto {
+      display: none;
+    }
+    .banner-titulo {
+      font-size: 28px;
+    }
+    .banner-subtitulo {
+      font-size: 16px;
+    }
+  }
+
+
+/* Parte da Mariah */
