@@ -236,6 +236,29 @@ body {
     cursor: pointer;
 }
 
+.container-produtos-pioto-destaques {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+    margin: 10px;
+}
+
+.espaco-do-h2-destaques {
+    margin-top: 40px;
+    margin-left: 70px;
+    
+}
+
+
 .container-produtos-pioto {
     display: inline-block;
     width: 150px;
@@ -247,13 +270,14 @@ body {
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     vertical-align: top;
 }
 
 .container-img-pioto {
     width: 100%;
-    height: auto;   /* altura se ajusta à largura, sem cortar */
+    height: auto;
+    /* altura se ajusta à largura, sem cortar */
     display: block;
 }
 
@@ -264,111 +288,115 @@ body {
     color: #333;
 }
 
-  .banner {
+.banner {
     display: flex;
     align-items: stretch;
     height: 160px;
-    background-color: #1b3358; /* azul marinho */
+    background-color: #1b3358;
     overflow: hidden;
-  }
- 
-  /* Logo circular à esquerda */
-  .banner-logo {
+}
+
+/* Logo circular à esquerda */
+.banner-logo {
     display: flex;
     align-items: center;
     padding: 0 24px;
-  }
- 
-  .banner-logo img {
+}
+
+.banner-logo img {
     height: 110px;
     width: 110px;
     border-radius: 50%;
     object-fit: cover;
-  }
- 
-  /* Linha divisória fina */
-  .banner-separador {
+}
+
+/* Linha divisória fina */
+.banner-separador {
     width: 1px;
     background-color: rgba(255, 255, 255, 0.4);
     margin: 20px 0;
-  }
- 
-  /* Bloco de texto (título + subtítulo) */
-  .banner-texto {
+}
+
+/* Bloco de texto (título + subtítulo) */
+.banner-texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 32px;
     flex: 1;
-  }
- 
-  .banner-titulo {
+}
+
+.banner-titulo {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 42px;
     font-weight: 700;
-    color: #e8b04b; /* dourado */
+    color: #e8b04b;
+    /* dourado */
     margin: 0;
     letter-spacing: 1px;
-  }
- 
-  .banner-subtitulo {
+}
+
+.banner-subtitulo {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 700;
     color: #e8b04b;
     margin: 6px 0 0 0;
     letter-spacing: 2px;
-  }
- 
-  /* Listras decorativas */
-  .banner-listras {
+}
+
+/* Listras decorativas */
+.banner-listras {
     display: flex;
-  }
- 
-  .listra {
+}
+
+.listra {
     width: 10px;
     height: 100%;
-  }
- 
-  .listra:nth-child(odd) {
+}
+
+.listra:nth-child(odd) {
     background-color: #1b3358;
-  }
- 
-  .listra:nth-child(even) {
+}
+
+.listra:nth-child(even) {
     background-color: #e8b04b;
-  }
- 
-  /* Foto à direita */
-  .banner-foto {
+}
+
+/* Foto à direita */
+.banner-foto {
     width: 260px;
     height: 100%;
     overflow: hidden;
     flex-shrink: 0;
-  }
- 
-  .banner-foto img {
+}
+
+.banner-foto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-  }
- 
-  /* Responsivo: em telas pequenas, esconde a foto e ajusta o texto */
-  @media (max-width: 700px) {
+}
+
+/* Responsivo: em telas pequenas, esconde a foto e ajusta o texto */
+@media (max-width: 700px) {
     .banner {
-      height: auto;
-      flex-wrap: wrap;
+        height: auto;
+        flex-wrap: wrap;
     }
+
     .banner-foto {
-      display: none;
+        display: none;
     }
+
     .banner-titulo {
-      font-size: 28px;
+        font-size: 28px;
     }
+
     .banner-subtitulo {
-      font-size: 16px;
+        font-size: 16px;
     }
-  }
+}
 
 
 /* Parte da Mariah */
