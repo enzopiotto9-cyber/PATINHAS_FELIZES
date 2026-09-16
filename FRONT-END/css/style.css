@@ -27,20 +27,6 @@ body {
 }
 
 
-.banner-topo,
-.espaco {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100%;
-}
-
-
-.banner-topo img {
-    display: block;
-    width: 100% !important;
-    height: auto;
-    object-fit: cover;
-}
 
 .menu ul {
     list-style: none;
@@ -400,3 +386,90 @@ body {
 
 
 /* Parte da Mariah */
+
+
+/* Fim parte da Mariah */
+
+
+
+
+
+
+/* Parte da Maria.C */
+
+.body-mc {
+    background-color: rgb(233, 242, 245);
+}
+
+.mariac-menu ul {
+    list-style: none;
+    display: flex;
+    background-color: #e3ae5e;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.mariac-menu li {
+    display: flex;
+}
+
+.mariac-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 6px 25px;
+    display: block;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+    border-radius: 100px;
+}
+
+.mariac-menu a:hover {
+    background-color: rgba(99, 99, 99, 0.342);
+}
+
+.mariac-menu a.ativo {
+    background-color: #00000049;
+    border-radius: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.mariac-menu {
+    background-color:peru;
+    
+}
+
+.mariac-icones {
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-evenly;
+align-items: left;
+margin-top: 200px;
+
+}
+.mariac-caixa-com-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.mariac-grupo-botoes {
+    display: flex;
+    gap: 5px; 
+}
+
+.mariac-retangulo {
+    background-color: #D1E4F5;
+    border-radius: 15px;       
+    padding: 40px;            
+    max-width: 650px;        
+    margin: 20px auto;       
+
+}
+/* Fim da parte Maria.C */
