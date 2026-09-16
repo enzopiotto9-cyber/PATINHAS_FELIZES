@@ -224,9 +224,9 @@ body {
 
 .container-produtos-pioto-destaques {
     display: inline-block;
-    width: 150px;
+    width: 270px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
     font-family: sans-serif;
     text-align: center;
@@ -239,17 +239,20 @@ body {
 }
 
 .espaco-do-h2-destaques {
-    margin-top: 40px;
-    margin-left: 70px;
-    
+    /* margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #e8b04b;
+    size: 100px;
 }
 
 
 .container-produtos-pioto {
     display: inline-block;
-    width: 150px;
+    width: 230px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
     font-family: sans-serif;
     text-align: center;
@@ -384,6 +387,77 @@ body {
     }
 }
 
+.destaques-retangulo-pioto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 95vw;
+    border-radius: 30px;
+    /* Largura do retângulo */
+    height: 70px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.margin-br-pioto {
+    margin-top: 40px;
+
+}
+
+.separador-retangulo-pioto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 95vw;
+    border-radius: 30px;
+    /* Largura do retângulo */
+    height: 7px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.button-carrinhodecompras {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.butto-classificaçãodeprodutos {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.container-descripition {
+    display: flex;
+    
+    width: 100%;
+    /* Largura do retângulo */
+    height: 250px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.paragrafo-quem-somos {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.paginas-atalhos {
+    display: flex;
+    margin-left: 500px;
+}
+
+.REDES-SOCIAIS {
+    margin-left: 10px;
+    margin-top: 180px;
+}
 
 /* Parte da Mariah */
 
