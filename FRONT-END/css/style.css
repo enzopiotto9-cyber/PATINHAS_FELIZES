@@ -447,29 +447,75 @@ display: flex;
 flex-wrap: wrap ;
 justify-content: space-evenly;
 align-items: left;
-margin-top: 200px;
+margin-top: 80px;
 
 }
 .mariac-caixa-com-botoes {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-  
+    gap: 5px;
+
 }
 
 .mariac-grupo-botoes {
     display: flex;
-    gap: 5px; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.linha{
+    display: flex;
+    gap: 5px;
+    margin-right: 195px;
 }
 
 .mariac-retangulo {
     background-color: #D1E4F5;
     border-radius: 15px;       
-    padding: 40px;            
-    max-width: 650px;        
-    margin: 20px auto;       
+    padding: 50px;            
+    max-width: 900px;        
+    margin: 80px auto;
+    border:2.5px solid peru;
+}
+.rodape-contato{
+    display: flex;
+    height: 150px;
+    background-color: midnightblue; 
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.quem-somos-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+
+.rede-sociais-mc{
+    display: flex;
+    width: 90px;
+    height: 90px;
+
+}
+
+.voltar-produtos-contato{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+
+}
+
+.paginas-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.img-rodape-contato{
+    max-height: 120px;
+    margin-top: 10px;
 
 }
 /* Fim da parte Maria.C */
