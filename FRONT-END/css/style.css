@@ -28,20 +28,6 @@ body {
 }
 
 
-.banner-topo,
-.espaco {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100%;
-}
-
-
-.banner-topo img {
-    display: block;
-    width: 100% !important;
-    height: auto;
-    object-fit: cover;
-}
 
 .menu ul {
     list-style: none;
@@ -238,9 +224,9 @@ body {
 
 .container-produtos-pioto-destaques {
     display: inline-block;
-    width: 150px;
+    width: 270px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
     font-family: sans-serif;
     text-align: center;
@@ -253,17 +239,20 @@ body {
 }
 
 .espaco-do-h2-destaques {
-    margin-top: 40px;
-    margin-left: 70px;
-    
+    /* margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #e8b04b;
+    size: 100px;
 }
 
 
 .container-produtos-pioto {
     display: inline-block;
-    width: 150px;
+    width: 230px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 30px;
     overflow: hidden;
     font-family: sans-serif;
     text-align: center;
@@ -398,5 +387,209 @@ body {
     }
 }
 
+.destaques-retangulo-pioto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 95vw;
+    border-radius: 30px;
+    /* Largura do retângulo */
+    height: 70px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.margin-br-pioto {
+    margin-top: 40px;
+
+}
+
+.separador-retangulo-pioto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 95vw;
+    border-radius: 30px;
+    /* Largura do retângulo */
+    height: 7px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.button-carrinhodecompras {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.butto-classificaçãodeprodutos {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+
+.container-descripition {
+    display: flex;
+    
+    width: 100%;
+    /* Largura do retângulo */
+    height: 250px;
+    /* Altura do retângulo */
+    background-color: #1b3358;
+    /* Cor azul */
+}
+
+.paragrafo-quem-somos {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.paginas-atalhos {
+    display: flex;
+    margin-left: 500px;
+}
+
+.REDES-SOCIAIS {
+    margin-left: 10px;
+    margin-top: 180px;
+}
 
 /* Parte da Mariah */
+
+
+/* Fim parte da Mariah */
+
+
+
+
+
+
+/* Parte da Maria.C */
+
+.body-mc {
+    background-color: rgb(233, 242, 245);
+}
+
+.mariac-menu ul {
+    list-style: none;
+    display: flex;
+    background-color: #e3ae5e;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.mariac-menu li {
+    display: flex;
+}
+
+.mariac-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 6px 25px;
+    display: block;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+    border-radius: 100px;
+}
+
+.mariac-menu a:hover {
+    background-color: rgba(99, 99, 99, 0.342);
+}
+
+.mariac-menu a.ativo {
+    background-color: #00000049;
+    border-radius: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.mariac-menu {
+    background-color:peru;
+    
+}
+
+.mariac-icones {
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-evenly;
+align-items: left;
+margin-top: 80px;
+
+}
+.mariac-caixa-com-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.mariac-grupo-botoes {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+}
+
+.linha{
+    display: flex;
+    gap: 5px;
+    margin-right: 195px;
+}
+
+.mariac-retangulo {
+    background-color: #D1E4F5;
+    border-radius: 15px;       
+    padding: 50px;            
+    max-width: 900px;        
+    margin: 80px auto;
+    border:2.5px solid peru;
+}
+.rodape-contato{
+    display: flex;
+    height: 150px;
+    background-color: midnightblue; 
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.quem-somos-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+}
+
+.rede-sociais-mc{
+    display: flex;
+    width: 90px;
+    height: 90px;
+
+}
+
+.voltar-produtos-contato{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    
+
+}
+
+.paginas-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.img-rodape-contato{
+    max-height: 120px;
+    margin-top: 10px;
+
+}
+/* Fim da parte Maria.C */
