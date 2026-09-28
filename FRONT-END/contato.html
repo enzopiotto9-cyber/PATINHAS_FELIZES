@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="  " type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="shortcut icon" href="img/patinhas_felizes_logo.ico" type="image/x-icon">
     <title>Entre em Contato</title>
@@ -53,57 +54,40 @@
 
     </nav>
     <hr>
-    <h1><b>
-            <br>
-            <center>Entre em Contato</center>
-        </b></h1>
-    <p><b><h2>
-            <center>Queremos ouvir você e o seu pet!</center>
-        </b></p></h2>
-    <form action="" method="post"></form>
+    <header class="mariac-cabecalho-contato">
+        <h1>Entre em Contato</h1>
+        <h2>Queremos ouvir você e o seu pet!</h2>
+    </header>
 
-    <br>
-    <br>
-    <br>
     <div class="mariac-retangulo">
-        <form action="post">
-            <div class="input-nome" style="display: flex; align-items: center; gap: 10px;">
+        <form class="mariac-form" action="post">
+            <div class="input-nome form-row">
                 <img width="30" height="30px" src="img/nome-icone.png" alt="Icone Nome">
                 <label for="Nome">Nome</label>
-                <input name="Nome" id="Nome" cols="30" rows="2" placeholder="Digite seu Nome" required>
+                <input name="Nome" id="Nome" type="text" placeholder="Digite seu Nome" required>
             </div>
 
-            <br>
-
-
-            <div class="input-email" style="display: flex; align-items: center; gap: 10px;">
+            <div class="input-email form-row">
                 <img width="30" height="30px" src="img/Email-Icone.png" alt="Icone Email">
                 <label for="Email">Email</label>
-                <input name="Email" id="Email" cols="40" rows="2" placeholder="Digite seu Email" required>
+                <input name="Email" id="Email" type="email" placeholder="Digite seu Email" required>
             </div>
 
-            <br>
-
-
-            <div class="input-Telefone" style="display: flex; align-items: center; gap: 10px;">
+            <div class="input-Telefone form-row">
                 <img width="30" height="30px" src="img/Telefone-icone.png" alt="Icone Telefone">
                 <label for="Telefone">Telefone</label>
-                <input name="Telefone" id="Telefone" cols="50" rows="2" placeholder="Digite seu Telefone" required>
+                <input name="Telefone" id="Telefone" type="tel" placeholder="Digite seu Telefone" required>
             </div>
-            <br>
-            <div class="input-Mensagem" style="display: flex; align-items: center; gap: 10px;"></div>
 
-            <img width="30" height="30px" src="img/mensagem-icone.png" alt="Icone Mensagem">
-            <label for="Mensagem">Mensagem</label>
-            <textarea name="Mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite sua mensagem"></textarea>
+            <div class="input-Mensagem form-row form-row-mensagem">
+                <img width="30" height="30px" src="img/mensagem-icone.png" alt="Icone Mensagem">
+                <label for="Mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="Mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+            </div>
 
-            <div class="mariac-caixa-com-botoes">
-                <div class="mariac-grupo-botoes">
-                    <div class="linha">
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpar</button>
-                    </div>
-                </div>
+            <div class="mariac-grupo-botoes">
+                <button class="botao-enviar" type="submit">Enviar</button>
+                <button class="botao-limpar" type="reset">Limpar</button>
             </div>
         </form>
 
@@ -144,29 +128,32 @@
         </div>
 
     </div>
-    <div>
-
     <footer class="rodape-contato">
-
         <div class="quem-somos-contato>
-            <p><a href="#">Quem somos...</a></p>
+            <h2>Patinhas Felizes</h2>
+            <p>Cuidado e carinho para quem faz parte da família.</p>
+            <a href=" #">Quem somos</a>
         </div>
 
         <div class="rede-sociais-mc">
-            <img src="img/Icone_instagram.png" alt="insta">
-            <img src="img/Icone_facebook.png" alt="face">
-            <img src="" alt="">
-
+            <h2>Siga a gente</h2>
+            <div class="rodape-redes-links">
+                <a href="#" aria-label="Instagram Patinhas Felizes">
+                    <img src="img/Icone_instagram.png" alt="Instagram">
+                </a>
+                <a href="#" aria-label="Facebook Patinhas Felizes">
+                    <img src="img/Icone_facebook.png" alt="Facebook">
+                </a>
+            </div>
         </div>
 
-
         <div class="voltar-produtos-contato">
+            <h2>Conheça</h2>
             <a href="#">Produtos</a>
         </div>
 
-
         <div class="paginas-contato">
-            <p>Páginas:</p>
+            <h2>Navegue</h2>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./galeria.html">Galeria</a></li>
@@ -175,14 +162,10 @@
             </ul>
         </div>
 
-        <div><img src="./img/patinhas_felizes_logo.ico" alt="" class="img-rodape-contato"></div>
-
-    </div>
-
-
-
-
-
+        <div class="rodape-marca">
+            <img src="./img/patinhas_felizes_logo.ico" alt="Logo Patinhas Felizes" class="img-rodape-contato">
+        </div>
+    </footer>
 
     </main>
 

@@ -97,11 +97,11 @@ body {
     height: 300px;
 }
 
-.acessibilidade-js{
+.acessibilidade-js {
     display: flex;
     width: 40px;
     height: 40px;
-    align-self: flex-end;    
+    align-self: flex-end;
 }
 
 /*FIM PARTE INICIAL*/
@@ -156,7 +156,7 @@ body {
     align-items: center;
 }
 
-.retangulo2{
+.retangulo2 {
     border: 2.5px solid midnightblue;
     background-color: midnightblue;
     height: 25px;
@@ -164,7 +164,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    color: peru ;
+    color: peru;
 }
 
 
@@ -209,10 +209,10 @@ body {
 
 /*FIM PARTE FINAL*/
 
-.rodape-home{
+.rodape-home {
     display: flex;
     height: 150px;
-    background-color: midnightblue; 
+    background-color: midnightblue;
     margin-top: 15px;
     justify-content: space-between;
 }
@@ -221,10 +221,10 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    
+
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     width: 50px;
     height: 50px;
@@ -235,7 +235,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    
+
 
 }
 
@@ -245,7 +245,7 @@ body {
     font-size: 20px;
 }
 
-.img-rodape-home{
+.img-rodape-home {
     max-height: 120px;
     margin-top: 10px;
 
@@ -480,14 +480,14 @@ body {
     border: 1.5px solid black;
     text-transform: uppercase;
 
-    
+
 }
 
-.icon-acessebilidade-galeria{
-    display: flex ;
+.icon-acessebilidade-galeria {
+    display: flex;
     height: 40px;
     width: 40px;
-    
+
 
 
 }
@@ -540,10 +540,10 @@ body {
 
 }
 
-.rodape-galeria{
+.rodape-galeria {
     display: flex;
     height: 150px;
-    background-color: midnightblue; 
+    background-color: midnightblue;
     margin-top: 15px;
     justify-content: space-between;
 }
@@ -552,15 +552,15 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    
+
 }
 
-.rede-sociais-galeria{
+.rede-sociais-galeria {
     display: flex;
     width: 90px;
     height: 90px;
-    margin-right:0 ;
-    
+    margin-right: 0;
+
 
 }
 
@@ -568,7 +568,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    
+
 
 }
 
@@ -578,11 +578,12 @@ body {
     font-size: 20px;
 }
 
-.img-rodape-galeria{
+.img-rodape-galeria {
     max-height: 120px;
     margin-top: 10px;
 
 }
+
 .margin-br-pioto {
     margin-top: 40px;
 
@@ -616,7 +617,7 @@ body {
 
 .container-descripition {
     display: flex;
-    
+
     width: 100%;
     /* Largura do retângulo */
     height: 250px;
@@ -652,7 +653,6 @@ body {
 
 
 /* Parte da Maria.C */
-
 .body-mc {
     background-color: rgb(233, 242, 245);
 }
@@ -672,7 +672,7 @@ body {
 }
 
 .mariac-menu a {
-    color: rgb(0, 0, 0);
+    color: #000;
     text-decoration: none;
     padding: 6px 25px;
     display: block;
@@ -688,90 +688,343 @@ body {
 .mariac-menu a.ativo {
     background-color: #00000049;
     border-radius: 100px;
-    color: #000000;
+    color: #000;
     font-weight: bold;
 }
 
-
 .mariac-menu {
-    background-color:peru;
-    
+    background-color: peru;
 }
 
-.mariac-icones {
-display: flex;
-flex-wrap: wrap ;
-justify-content: space-evenly;
-align-items: left;
-margin-top: 80px;
-
-}
-.mariac-caixa-com-botoes {
+.rodape-contato {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-}
-
-.mariac-grupo-botoes {
-    display: flex;
-    gap: 10px; 
-    justify-content: center;
-}
-
-.linha{
-    display: flex;
-    gap: 5px;
-    margin-right: 195px;
-}
-
-.mariac-retangulo {
-    background-color: #D1E4F5;
-    border-radius: 15px;       
-    padding: 50px;            
-    max-width: 900px;        
-    margin: 80px auto;
-    border:2.5px solid peru;
-}
-.rodape-contato{
-    display: flex;
-    height: 150px;
-    background-color: midnightblue; 
-    margin-top: 15px;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 32px;
+    min-height: 190px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 30px clamp(24px, 5vw, 72px);
+    border-top: 4px solid #e3ae5e;
+    background-color: #1d1b6b;
+    color: #fff;
 }
 
 .quem-somos-contato {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
-    
+    flex: 1 1 210px;
+    gap: 10px;
 }
 
-.rede-sociais-mc{
-    display: flex;
-    width: 90px;
-    height: 90px;
-
+.rodape-contato h2 {
+    margin: 0 0 8px;
+    color: #f0bd68;
+    font-size: 18px;
 }
 
-.voltar-produtos-contato{
+.rodape-contato p {
+    margin: 0;
+    color: #e2e7f2;
+    line-height: 1.5;
+}
+
+.rodape-contato a {
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.rodape-contato a:hover {
+    color: #f0bd68;
+}
+
+.rede-sociais-mc {
     display: flex;
+    flex: 1 1 130px;
     flex-direction: column;
-    font-size: 20px;
-    
-
+    gap: 8px;
 }
 
+.rodape-redes-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.rodape-redes-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.rodape-redes-links img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.voltar-produtos-contato,
 .paginas-contato {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    flex: 1 1 110px;
 }
 
-.img-rodape-contato{
-    max-height: 120px;
+.paginas-contato ul {
+    display: grid;
+    gap: 7px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rodape-marca {
+    display: flex;
+    flex: 0 1 120px;
+    justify-content: flex-end;
+}
+
+.img-rodape-contato {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+@media (max-width: 600px) {
+    .rodape-contato {
+        gap: 24px;
+        padding: 26px 22px;
+    }
+
+    .quem-somos-contato,
+    .rede-sociais-mc,
+    .voltar-produtos-contato,
+    .paginas-contato {
+        flex-basis: calc(50% - 12px);
+    }
+
+    .rodape-marca {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+}
+
+.mariac-cabecalho-contato {
+    text-align: center;
+    margin: 24px auto 30px;
+    padding: 0 16px;
+}
+
+.mariac-cabecalho-contato h1 {
+    margin: 0 0 12px;
+    color: #24364b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.mariac-cabecalho-contato h2 {
+    margin: 0;
+    color: #526779;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.mariac-cabecalho-contato h2::after {
+    display: block;
+    width: 58px;
+    height: 3px;
+    margin: 14px auto 0;
+    border-radius: 2px;
+    background-color: #c77727;
+    content: "";
+}
+
+.mariac-icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-top: 80px;
+
+}
+
+.mariac-caixa-com-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mariac-grupo-botoes {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.mariac-retangulo {
+    background-color: #D1E4F5;
+    border-radius: 16px;
+    padding: 44px 32px;
+    width: min(900px, calc(100% - 48px));
+    box-sizing: border-box;
+    margin: 48px auto;
+    border: 2.5px solid peru;
+}
+
+.mariac-form {
+    width: min(100%, 560px);
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.form-row img {
+    flex: 0 0 32px;
+    object-fit: contain;
+}
+
+.form-row label {
+    flex: 0 0 90px;
+    color: #24364b;
+    font-weight: 600;
+}
+
+.form-row input,
+.form-row textarea {
+    min-width: 0;
+    flex: 1;
+    box-sizing: border-box;
+    border: 1px solid #9aafc1;
+    border-radius: 7px;
+    padding: 11px 13px;
+    background-color: #fff;
+    color: #24364b;
+    font: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-row input {
+    height: 44px;
+}
+
+.form-row textarea {
+    min-height: 132px;
+    resize: vertical;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+    outline: none;
+    border-color: #c77727;
+    box-shadow: 0 0 0 3px rgba(199, 119, 39, 0.18);
+}
+
+.form-row-mensagem {
+    align-items: flex-start;
+}
+
+.form-row-mensagem img,
+.form-row-mensagem label {
     margin-top: 10px;
-
 }
+
+.mariac-grupo-botoes button {
+    min-width: 120px;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mariac-grupo-botoes button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(36, 54, 75, 0.18);
+}
+
+.botao-enviar {
+    background-color: #c77727;
+    color: #fff;
+}
+
+.botao-enviar:hover {
+    background-color: #a95f19;
+}
+
+.botao-limpar {
+    background-color: #fff;
+    color: #34495e;
+    border: 1px solid #9aafc1 !important;
+}
+
+.botao-limpar:hover {
+    background-color: #edf3f8;
+}
+
+@media (max-width: 600px) {
+    .mariac-cabecalho-contato {
+        margin: 20px auto 24px;
+    }
+
+    .mariac-cabecalho-contato h1 {
+        font-size: 38px;
+    }
+
+    .mariac-cabecalho-contato h2 {
+        font-size: 18px;
+    }
+
+    .mariac-retangulo {
+        width: calc(100% - 28px);
+        padding: 28px 18px;
+        margin: 32px auto;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 32px 1fr;
+        gap: 8px 12px;
+    }
+
+    .form-row label {
+        grid-column: 2;
+    }
+
+    .form-row input,
+    .form-row textarea {
+        grid-column: 1 / -1;
+    }
+
+    .form-row-mensagem img {
+        grid-row: 1 / span 2;
+    }
+
+    .form-row-mensagem label {
+        grid-column: 2;
+        margin-top: 0;
+    }
+
+    .mariac-grupo-botoes button {
+        min-width: 0;
+        flex: 1;
+    }
+}
+
 /* Fim da parte Maria.C */
