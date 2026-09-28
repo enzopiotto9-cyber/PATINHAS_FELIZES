@@ -298,19 +298,15 @@ body {
     margin: 10px;
 }
 
-.espaco-do-h2-destaques {
-<<<<<<< HEAD
-    margin-top: 40px;
+.pioto-espaco-do-h2-destaques {
     margin-left: 70px;
 
-=======
     /* margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center; */
     color: #e8b04b;
     size: 100px;
->>>>>>> refs/remotes/origin/development
 }
 
 
@@ -563,7 +559,7 @@ body {
     display: flex;
     width: 90px;
     height: 90px;
-    margin-right: ;
+    margin-right:0 ;
     
 
 }
@@ -587,7 +583,6 @@ body {
     margin-top: 10px;
 
 }
-=======
 .margin-br-pioto {
     margin-top: 40px;
 
@@ -780,4 +775,3 @@ margin-top: 80px;
 
 }
 /* Fim da parte Maria.C */
->>>>>>> refs/remotes/origin/development
