@@ -869,6 +869,22 @@ position: fixed;
     background-color: rgb(233, 242, 245);
 }
 
+.parent-container-mc {
+position: fixed;
+  bottom: 50%;
+  right: 0;
+  width: 40px;
+  height: 40px;
+   margin-right: 5px;
+
+}
+
+.parent-container_img-mc {
+    width: 100%;        
+    height: 100%;
+    object-fit: contain;
+}
+
 .mariac-menu ul {
     list-style: none;
     display: flex;
@@ -1238,5 +1254,6 @@ position: fixed;
         flex: 1;
     }
 }
+
 
 /* Fim da parte Maria.C */
